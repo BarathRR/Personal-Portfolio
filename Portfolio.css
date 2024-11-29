@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sub-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 32px;
+    align-items: center;
+}
+
+.list2 {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;   
+}
+
+.button button{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+.button button img{
+    margin-left: 5px;
+}
+
+.list4{
+    display: none;
+}
+.list4 .icon img{
+    width: 30px;
+
+}
+
+@media (max-width:900px){
+    .list2,.list3{
+        display: none;
+    }
+    .list4{
+        display: block;
+    }
+    
+}
