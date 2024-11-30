@@ -1,14 +1,34 @@
+/* General */
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
-.sub-cont {
+body {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+.sub-cont1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 32px;
+    padding: 15px 25px;
     align-items: center;
+}
+
+.list1 .Name {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
 }
 
 .list2 {
@@ -17,34 +37,47 @@
     width: 40%;
     justify-content: space-around;
     font-family: "Poppins", sans-serif;
-    font-weight: 400;   
 }
 
-.button button{
+.list2 a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.button button {
     background-color: black;
     color: white;
+    cursor: pointer;
     border-radius: 8px;
     padding: 10px 15px;
     font-size: 18px;
 }
-.button button img{
+
+.button button img {
     margin-left: 5px;
 }
 
-.list4{
+.list4 {
     display: none;
 }
-.list4 .icon img{
+
+.list4 .icon img {
     width: 30px;
 
 }
 
-@media (max-width:900px){
-    .list2,.list3{
+@media (max-width:900px) {
+
+    .list2,
+    .list3 {
         display: none;
     }
-    .list4{
+
+    .list4 {
         display: block;
     }
-    
 }
+
+/* About Me */
