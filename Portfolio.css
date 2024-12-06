@@ -26,6 +26,10 @@ ul {
     justify-content: space-between;
     padding: 15px 25px;
     align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(45px);
+    box-shadow: 0 4px 14px #b2b0ff40
 }
 
 .list1 .Name {
@@ -51,7 +55,7 @@ ul {
 }
 
 .button button {
-    background-color: black;
+    background-color: #424242;
     color: white;
     cursor: pointer;
     border-radius: 8px;
@@ -90,30 +94,49 @@ ul {
     display: flex;
     flex-direction: row;
     padding: 50px;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 .sec1-cont1{
+    padding: 30px;
     width: 50%;
+    align-content: end;
+}
+.sec1-cont2{
+    padding: 20px;
+    width: 30%;
 }
 .sec1-cards ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    padding-left: 30px;
 }
 .sec1-card{
-    margin-left: 10px;
+    margin-right: 20px;
     width: 60px;
 }
 .sec1-Para {
     opacity: 0.5;
+    padding-bottom: 30px;
+    font-size: 25px;
+    padding-left: 30px;
 }
 .sec1-Hd {
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     padding-left: 50px;
+}
+.sec1-Hd h1{
+    font-size: 40px;
 }
 .sec1-Hd  span{
     color: brown;
     font-family: "Londrina Outline", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 50px;
+}
+.sec1-img,.sec1-img img{
+    width: 100%;
 }
