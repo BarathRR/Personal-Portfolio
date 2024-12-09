@@ -98,7 +98,7 @@ ul {
     justify-content: space-evenly;
 }
 .sec1-cont1{
-    padding: 30px;
+    padding: 20px;
     width: 50%;
     align-content: end;
 }
@@ -110,11 +110,13 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding-left: 30px;
+    padding-left: 25px;
 }
 .sec1-card{
-    margin-right: 20px;
-    width: 60px;
+    margin-right: 15px;
+}
+.sec1-cardSet .sec1-cards .sec1-card img {
+    width: 50px;
 }
 .sec1-Para {
     opacity: 0.5;
@@ -125,18 +127,55 @@ ul {
 .sec1-Hd {
     padding-top: 20px;
     padding-bottom: 30px;
-    padding-left: 50px;
+    padding-left: 30px;
 }
 .sec1-Hd h1{
-    font-size: 40px;
+    font-size: 35px;
 }
 .sec1-Hd  span{
     color: brown;
     font-family: "Londrina Outline", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
-    font-size: 50px;
+    font-size: 45px;
 }
 .sec1-img,.sec1-img img{
+    width: 90%;
+    padding-left: 25px;
+}
+.sec1-cont2 .sec1-img img{
+    border-radius: 50%;
+}
+
+/* Skills */
+.sec2{
     width: 100%;
+}
+.sec2-cont{
+    padding: 50px;
+}
+.sec2-Hd{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.sec2-Hd h1{
+    text-align: center;
+    font-size: 35px;
+}
+.sec2-cont2-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sec2-cont2-ul .skills{
+    border: 2px solid black;
+    padding: 50px;
+}
+.sec2-cont2-ul .skills:hover{
+    background-color: black;
+    color: #F5F5F5;
+}
+.sec2-cont2-ul .skills p{
+    padding-top: 15px;
+    text-align: center;
 }
