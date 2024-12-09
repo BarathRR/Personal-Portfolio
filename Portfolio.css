@@ -23,7 +23,7 @@ ul {
 .sub-cont1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 15px 25px;
     align-items: center;
 
@@ -34,7 +34,7 @@ ul {
 
 .list1 .Name {
     font-family: "Anton SC", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     cursor: pointer;
 }
@@ -148,15 +148,17 @@ ul {
 }
 
 /* Skills */
+
 .sec2{
     width: 100%;
 }
 .sec2-cont{
     padding: 50px;
+    padding-top: 0px;
 }
 .sec2-Hd{
     width: 100%;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 .sec2-Hd h1{
     text-align: center;
@@ -164,12 +166,19 @@ ul {
 }
 .sec2-cont2-ul{
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .sec2-cont2-ul .skills{
-    border: 2px solid black;
-    padding: 50px;
+    border: 2px dashed black;
+    padding: 40px;
+    padding-bottom: 20px;
+    width: 10%;
+    height: 10%;
+}
+.skills div {
+    justify-items: center;
 }
 .sec2-cont2-ul .skills:hover{
     background-color: black;
@@ -177,5 +186,18 @@ ul {
 }
 .sec2-cont2-ul .skills p{
     padding-top: 15px;
+    text-align: center;
+}
+
+/* Experience */
+
+.sec3{
+    background-color: black;
+    color: #F5F5F5;
+}
+.sec3-cont{
+    padding: 50px;
+}
+.sec3-cont1 .sec3-Hd{
     text-align: center;
 }
