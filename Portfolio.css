@@ -188,6 +188,32 @@ ul {
     padding-top: 15px;
     text-align: center;
 }
+.sec2-cont3-ul{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;  
+}
+.sec2-cont3-ul .skills{
+    border: 2px dashed black;
+    padding: 40px;
+    padding-bottom: 20px;
+    margin: 20px;
+    width: 10%;
+    height: 10%;
+}
+.skills div {
+    justify-items: center;
+}
+.sec2-cont3-ul .skills:hover{
+    background-color: black;
+    color: #F5F5F5;
+}
+.sec2-cont3-ul .skills p{
+    padding-top: 15px;
+    text-align: center;
+}
 
 /* Experience */
 
